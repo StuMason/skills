@@ -1,0 +1,21 @@
+{
+  "name": "stumason",
+  "owner": {
+    "name": "Stu Mason",
+    "url": "https://stumason.dev"
+  },
+  "description": "Stu Mason's agent skills as an installable Claude Code plugin. Four skills, one per scar.",
+  "plugins": [
+    {
+      "name": "stumason-skills",
+      "source": "./",
+      "description": "nah, oi, not-ready, you-what: refuse the duct tape, brag about your shipping, send vague tickets back, verify QA reports before fixing.",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "skills",
+        "code-quality"
+      ]
+    }
+  ]
+}

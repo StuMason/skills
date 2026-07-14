@@ -1,0 +1,26 @@
+{
+  "name": "stumason-skills",
+  "version": "0.1.0",
+  "description": "Stu Mason's agent skills: nah (walls are design feedback, refuse the patch), oi (the brag nudge), not-ready (vague tickets get sent back), you-what (verify QA reports before fixing). One skill per scar.",
+  "author": {
+    "name": "Stu Mason",
+    "url": "https://stumason.dev"
+  },
+  "homepage": "https://stumason.dev",
+  "repository": "https://github.com/StuMason/skills",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "skills",
+    "code-quality",
+    "requirements",
+    "qa",
+    "marketing"
+  ],
+  "skills": [
+    "./skills/nah",
+    "./skills/oi",
+    "./skills/not-ready",
+    "./skills/you-what"
+  ]
+}
