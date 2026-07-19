@@ -31,11 +31,11 @@ QA describes what they see, not what is correct. Before fixing a report, reprodu
 
 ### [/brag-nudge](./skills/brag-nudge/SKILL.md)
 
-You shipped something real and will never tell anyone. Writes the brag brief — receipts, angles, a rough draft to reword — then nags you to post it. Never posts for you.
+You shipped something real and will never tell anyone. Writes the brag brief (receipts, angles, a rough draft to reword), then nags you to post it. Never posts for you.
 
 ### [/prose-revision](./skills/prose-revision/SKILL.md)
 
-A language model's default register is pre-assembled prose. When a human will actually read the thing — docs, PR descriptions, site copy — this is the revision pass: concrete, cut, fresh, shown rather than labelled, and guarded against overcorrecting into telegrams.
+A language model's default register is pre-assembled prose. When a human will actually read the thing (docs, PR descriptions, site copy), this is the revision pass: concrete, cut, fresh, shown rather than labelled, and guarded against overcorrecting into telegrams.
 
 ### [/answer-first](./skills/answer-first/SKILL.md)
 
@@ -43,7 +43,7 @@ Stop burying the answer. Lead with the outcome, number the steps, park tangents 
 
 ## Why so few
 
-Edited, not collected. One skill per scar; when I earn a new scar, there will be a new skill. The two writing skills were used on this repo — the README you are reading went through /prose-revision.
+Edited, not collected. One skill per scar; when I earn a new scar, there will be a new skill. The two writing skills were used on this repo: the README you are reading went through /prose-revision.
 
 ## Who is this
 

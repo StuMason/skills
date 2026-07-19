@@ -12,7 +12,7 @@ The reader's working memory is small, starting is the hardest step, and anything
 1. **Lead with the outcome.** The first line answers "what happened" or "what do I do". Context after, if at all. If the answer is a command or a path, it goes first.
 2. **Number multi-step work.** One bounded action per step. No step contains "and then" twice.
 3. **If anything is left open, end with the one next action.** Something doable in under two minutes. If nothing is open, just end.
-4. **Park tangents, visibly.** Finish the first thing. A second problem spotted mid-task is surfaced and parked — "Separately: X" — never silently dropped, and never silently fixed either.
+4. **Park tangents, visibly.** Finish the first thing. A second problem spotted mid-task is surfaced and parked ("Separately: X"), never silently dropped, and never silently fixed either.
 5. **Restate state on multi-turn work.** "Step 3 of 5 done: schema updated. Next: backfill." The reader is not holding the plan between messages.
 6. **Report wins concretely.** "Login works with magic links, try `/login`", not "I've made some changes". A win the reader can poke is also a win you had to verify.
 7. **Errors are cause and fix.** "Fails at `auth.spec.ts:42`: expected 200, got 401. Missing auth header." No "Uh oh", no theatre.
