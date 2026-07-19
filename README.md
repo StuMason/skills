@@ -1,8 +1,6 @@
 # Skills
 
-Oi. Everyone has a skills repo now. The calm wizards have theirs, beautifully documented, six figures of stars. This is not that.
-
-Four skills, over a decade of getting burned baked into every one. They are the rules I beat into my own agents after shipping real production systems with them: 20+ apps, a self-hosted estate, AI pipelines, actual clients. Every one of these exists because its absence cost me something.
+Six skills, one per scar. Each exists because its absence cost me something: shipped duct tape, code built on guesses, a "fix" for a bug that was not one, work nobody heard about, prose that read like a model wrote it, and answers buried under three paragraphs of preamble. Rules I beat into my own agents shipping real production systems: 20+ apps, a self-hosted estate, actual clients.
 
 ## Install
 
@@ -19,25 +17,33 @@ Or as a Claude Code plugin:
 
 ## The skills
 
-### [/nah](./skills/nah/SKILL.md)
+### [/stop-patching](./skills/stop-patching/SKILL.md)
 
-When the implementation fights back, those hands are information. A case that will not fit, a spec that breaks, an assumption that fails: the design is wrong somewhere, and a flag, a special case, or a shim is just a way of ignoring it. This skill makes the agent stop, re-derive the design, and tell you, instead of quietly shipping duct tape. Duct tape is a confession, listen carefully.
+When the implementation fights back, the wall is information: the design is wrong somewhere. Stops the agent patching around it with flags, special cases and shims, and makes it re-derive the design and propose instead. Duct tape is a confession.
 
-### [/oi](./skills/oi/SKILL.md)
+### [/ticket-readiness](./skills/ticket-readiness/SKILL.md)
 
-The brag nudge. You shipped something real and you will never tell anyone, because people who ship do not stop to market. This skill writes the brag brief for you (receipts, angles, a rough draft to reword) and then nags you to go post it. It never posts for you. Showing up is the one part of marketing you cannot automate, so it automates the nagging instead.
+Vague acceptance criteria are a blocker, not a challenge. If the business rule cannot be said in plain English, the ticket goes back with specific questions, each with a recommended answer so they actually get answered.
 
-### [/not-ready](./skills/not-ready/SKILL.md)
+### [/verify-bug-reports](./skills/verify-bug-reports/SKILL.md)
 
-Vague acceptance criteria are a blocker, not a challenge. If the agent cannot explain the business rule in plain English, it refuses to code it and sends the ticket back with the exact questions that need answers, each with a recommended answer so they actually get answered. Building from guesses makes YOU look shit, not the agent.
+QA describes what they see, not what is correct. Before fixing a report, reproduce it, find the source of truth, and deliver a verdict: real bug, misread requirement, or nobody ever decided.
 
-### [/you-what](./skills/you-what/SKILL.md)
+### [/brag-nudge](./skills/brag-nudge/SKILL.md)
 
-Never take QA feedback as gospel. QA describes what they see, not what is correct. Before fixing what was reported, this skill makes the agent reproduce it, find the actual source of truth, and deliver a verdict: real bug, misread requirement, or nobody ever decided. "QA said so" is how correct code gets broken politely.
+You shipped something real and will never tell anyone. Writes the brag brief — receipts, angles, a rough draft to reword — then nags you to post it. Never posts for you.
 
-## Why only four
+### [/prose-revision](./skills/prose-revision/SKILL.md)
 
-Because these are edited, not collected. Most agent failures I have actually been burned by come down to: it patched around a broken design, it built from a vague ticket, it trusted a wrong bug report, or I shipped something great and told nobody. One skill per scar. When I earn a new scar, there will be a new skill.
+A language model's default register is pre-assembled prose. When a human will actually read the thing — docs, PR descriptions, site copy — this is the revision pass: concrete, cut, fresh, shown rather than labelled, and guarded against overcorrecting into telegrams.
+
+### [/answer-first](./skills/answer-first/SKILL.md)
+
+Stop burying the answer. Lead with the outcome, number the steps, park tangents visibly, no ceremony. Descended from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) with the lossy rules fixed: tangents are parked instead of dropped, lists are ranked instead of capped, and made-up minute estimates are gone.
+
+## Why so few
+
+Edited, not collected. One skill per scar; when I earn a new scar, there will be a new skill. The two writing skills were used on this repo — the README you are reading went through /prose-revision.
 
 ## Who is this
 

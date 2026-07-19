@@ -1,9 +1,9 @@
 ---
-name: not-ready
+name: ticket-readiness
 description: Vague acceptance criteria are a blocker, not a challenge. Use before building from any ticket, issue, or request that is ambiguous about business logic or expected behaviour.
 ---
 
-# Not Ready
+# Ticket Readiness
 
 If you cannot explain the business rule in plain English, refuse to code it. Building from guesses produces confident, plausible, wrong code, and the human carries it into review with their name on it.
 

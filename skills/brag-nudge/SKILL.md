@@ -1,9 +1,9 @@
 ---
-name: oi
+name: brag-nudge
 description: The brag nudge. Use when something real has just shipped, a PR train merged, a deploy gone live, a project delivered. Writes a brag brief and nags the human to go post about it.
 ---
 
-# Oi
+# Brag Nudge
 
 The human just shipped something real. They will never tell anyone, because people who ship do not stop to market. So the agent does the thinking and the human does the human bit. **Never post on their behalf. The nudge is the product.**
 
@@ -16,7 +16,7 @@ Something real shipped: a merged PR train, a production deploy, a delivered proj
 Write to `brags/YYYY-MM-DD-<slug>.md` in the project or workspace:
 
 ```markdown
-# OI: <headline of what shipped>
+# Go brag: <headline of what shipped>
 
 <Two or three sentences of nudge. Direct, cheeky, "go brag about this, mate"
 energy. Say why it is impressive TO A BUYER, not to a dev.>
@@ -38,7 +38,7 @@ wrong draft beats staring at a blank box.>
 
 ## The nudge
 
-Deliver it however this environment reaches the human: a notification hook, a messaging tool, or simply ending the session with `OI.`, the headline, and the file path in your final message. Loud beats polite.
+Deliver it however this environment reaches the human: a notification hook, a messaging tool, or simply ending the session with the headline and the file path in your final message. Loud beats polite.
 
 ## Rules
 
