@@ -1,7 +1,7 @@
 {
   "name": "stumason-skills",
-  "version": "0.1.0",
-  "description": "Stu Mason's agent skills: nah (walls are design feedback, refuse the patch), oi (the brag nudge), not-ready (vague tickets get sent back), you-what (verify QA reports before fixing). One skill per scar.",
+  "version": "0.2.0",
+  "description": "Stu Mason's agent skills: stop-patching (walls are design feedback, refuse the workaround), ticket-readiness (vague tickets go back), verify-bug-reports (check the report before fixing), brag-nudge (ship, then say so), prose-revision (cut the waffle), answer-first (stop burying the answer). One skill per scar.",
   "author": {
     "name": "Stu Mason",
     "url": "https://stumason.dev"
@@ -15,12 +15,15 @@
     "code-quality",
     "requirements",
     "qa",
-    "marketing"
+    "marketing",
+    "writing"
   ],
   "skills": [
-    "./skills/nah",
-    "./skills/oi",
-    "./skills/not-ready",
-    "./skills/you-what"
+    "./skills/stop-patching",
+    "./skills/ticket-readiness",
+    "./skills/verify-bug-reports",
+    "./skills/brag-nudge",
+    "./skills/prose-revision",
+    "./skills/answer-first"
   ]
 }
