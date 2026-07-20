@@ -15,6 +15,17 @@ A language model writes from a context the reader does not have, in phrases it h
 4. **Show the thing, don't label the reaction.** Do not call it "powerful", "delightful", or "robust"; describe it so the reader says that. Adjectives that tell the reader how to feel are you doing their reading for them.
 5. **The override.** When any rule fights clarity, clarity wins. In doubt between plain and clever, choose plain.
 
+## The tells
+
+Readers have learned what machine prose looks like. Any of these outs the piece as generated, whatever the byline says, and each one costs trust the rest of the copy then has to buy back:
+
+- **The em-dash habit.** The model's favourite hinge. House rule: none in published copy; full stops, commas and colons do the work. (Quote attribution is the exception: "— {name}".)
+- **The automatic triad.** "Deep-dives, insights, and lessons learned." Three parallel items, every time, none load-bearing. Keep the one that matters.
+- **The apposition chain.** "Fast, reliable, built for scale." Adjectives queueing to be believed. One claim with a receipt beats three without.
+- **Hedged capability.** "What AI could do", "what's actually possible". If it happened, say it happened. If it did not, it does not go in.
+- **Numbers nobody can trace.** A real number is a receipt. A rounded flourish is a tell. If you cannot say where it came from, cut it.
+- **The manufactured catchphrase.** Ending every page with the same clever CTA reads as a template within a week, and replacing it with a fresh catchphrase restarts the clock. End plainly, and vary.
+
 ## The pass
 
 Draft freely first; prose composed under these rules comes out stilted. Then revise:

@@ -35,7 +35,7 @@ You shipped something real and will never tell anyone. Writes the brag brief (re
 
 ### [/prose-revision](./skills/prose-revision/SKILL.md)
 
-A language model's default register is pre-assembled prose. When a human will actually read the thing (docs, PR descriptions, site copy), this is the revision pass: concrete, cut, fresh, shown rather than labelled, and guarded against overcorrecting into telegrams.
+A language model's default register is pre-assembled prose. When a human will actually read the thing (docs, PR descriptions, site copy), this is the revision pass: concrete, cut, fresh, shown rather than labelled, scrubbed of the tells that out prose as machine-written, and guarded against overcorrecting into telegrams.
 
 ### [/answer-first](./skills/answer-first/SKILL.md)
 
