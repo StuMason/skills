@@ -1,6 +1,6 @@
 # Skills
 
-Six skills, one per scar. Each exists because its absence cost me something: shipped duct tape, code built on guesses, a "fix" for a bug that was not one, work nobody heard about, prose that read like a model wrote it, and answers buried under three paragraphs of preamble. Rules I beat into my own agents shipping real production systems: 20+ apps, a self-hosted estate, actual clients.
+Seven skills, one per scar. Each exists because its absence cost me something: shipped duct tape, code built on guesses, a "fix" for a bug that was not one, work nobody heard about, prose that read like a model wrote it, answers buried under three paragraphs of preamble, and per-item LLM calls where a lookup would have done. Rules I beat into my own agents shipping real production systems: 20+ apps, a self-hosted estate, actual clients.
 
 ## Install
 
@@ -40,6 +40,10 @@ A language model's default register is pre-assembled prose. When a human will ac
 ### [/answer-first](./skills/answer-first/SKILL.md)
 
 Stop burying the answer. Lead with the outcome, number the steps, park tangents visibly, no ceremony. Descended from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) with the lossy rules fixed: tangents are parked instead of dropped, lists are ranked instead of capped, and made-up minute estimates are gone.
+
+### [/escalation-ladder](./skills/escalation-ladder/SKILL.md)
+
+Cheapest technique first, LLM last. Before designing anything that classifies, matches, routes, dedups, ranks, scores or extracts, walk the ladder (lookup, rule, string, statistics, embedding, small LLM, big LLM) and say why each rung is or is not enough. A per-item LLM call is the most expensive, least debuggable tool in the box; it gets earned, not defaulted to.
 
 ## Why so few
 
