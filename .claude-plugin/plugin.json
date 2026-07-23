@@ -1,7 +1,7 @@
 {
   "name": "stumason-skills",
   "version": "0.3.0",
-  "description": "Stu Mason's agent skills: stop-patching (walls are design feedback, refuse the workaround), ticket-readiness (vague tickets go back), verify-bug-reports (check the report before fixing), brag-nudge (ship, then say so), prose-revision (cut the waffle), answer-first (stop burying the answer), escalation-ladder (cheapest technique first, LLM last). One skill per scar.",
+  "description": "Stu Mason's agent skills: stop-patching (walls are design feedback, refuse the workaround), ticket-readiness (vague tickets go back), verify-bug-reports (check the report before fixing), brag-nudge (ship, then say so), prose-revision (cut the waffle), answer-first (stop burying the answer), escalation-ladder (cheapest technique first, LLM last), commit-cdr (commit with a decision record and provenance trailers). One skill per scar.",
   "author": {
     "name": "Stu Mason",
     "url": "https://stumason.dev"
@@ -25,6 +25,7 @@
     "./skills/brag-nudge",
     "./skills/prose-revision",
     "./skills/answer-first",
-    "./skills/escalation-ladder"
+    "./skills/escalation-ladder",
+    "./skills/commit-cdr"
   ]
 }

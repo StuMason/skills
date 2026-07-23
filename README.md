@@ -1,6 +1,6 @@
 # Skills
 
-Seven skills, one per scar. Each exists because its absence cost me something: shipped duct tape, code built on guesses, a "fix" for a bug that was not one, work nobody heard about, prose that read like a model wrote it, answers buried under three paragraphs of preamble, and per-item LLM calls where a lookup would have done. Rules I beat into my own agents shipping real production systems: 20+ apps, a self-hosted estate, actual clients.
+Eight skills, one per scar. Each exists because its absence cost me something: shipped duct tape, code built on guesses, a "fix" for a bug that was not one, work nobody heard about, prose that read like a model wrote it, answers buried under three paragraphs of preamble, per-item LLM calls where a lookup would have done, and agent commits nobody could reconstruct six months later. Rules I beat into my own agents shipping real production systems: 20+ apps, a self-hosted estate, actual clients.
 
 ## Install
 
@@ -44,6 +44,10 @@ Stop burying the answer. Lead with the outcome, number the steps, park tangents 
 ### [/escalation-ladder](./skills/escalation-ladder/SKILL.md)
 
 Cheapest technique first, LLM last. Before designing anything that classifies, matches, routes, dedups, ranks, scores or extracts, walk the ladder (lookup, rule, string, statistics, embedding, small LLM, big LLM) and say why each rung is or is not enough. A per-item LLM call is the most expensive, least debuggable tool in the box; it gets earned, not defaulted to.
+
+### [/commit-cdr](./skills/commit-cdr/SKILL.md)
+
+Commit with a Conversation Decision Record. When there is no PR, no review, and no human reading the diff, the CDR is the only record of what happened and why: what was asked, what changed, decisions, risk surface, all written like a black box recording. Adds machine-parseable provenance trailers (model, session, review status, risk flags) so a scanner can query thousands of repos with plain git log when an advisory drops.
 
 ## Why so few
 
